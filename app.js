@@ -10,6 +10,6 @@ mongoose.connect(config.getMongoConnection());
 setupController(server, restify, restifyValidator);
 user(server);
 
-server.listen(8080, function() {
+server.listen(8081, function() {
   console.log('%s listening at %s', server.name, server.url);
 });
